@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+$font-size: 16px;
+$font-family: "Lato", "Arial", sans-serif;
+$font-weight: 300;
+
+$color-primary: #990000;
+$color-secondary: #FFCC00;
+$color-primary-text: white;
+
+body {
+  font-size: $font-size;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  line-height: 140%;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 {
+  font-weight: $font-weight;
+  color: $color-primary;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
