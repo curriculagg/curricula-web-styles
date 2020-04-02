@@ -53,8 +53,12 @@ button, .button {
     color: black;
   }
 
+  &:disabled {
+    background-color: #BBB;
+  }
+
   & + & {
-    margin-left: 0.5em;
+    margin-left: 0.75em;
   }
 }
 
