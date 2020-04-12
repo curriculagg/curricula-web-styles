@@ -1,3 +1,10 @@
 @import 'theme';
 @import 'extra';
 @import 'forms';
+@import 'hours';
+
+.content {
+  width: 600px;
+  margin: 0 auto;
+  padding: 4em 0;
+}

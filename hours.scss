@@ -1,0 +1,37 @@
+@import 'theme';
+
+.queue {
+  margin: 0.5em;
+  padding: 0.25em;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: normal;
+
+  cursor: pointer;
+
+  color: white;
+  background-color: #AAA;
+  border: 2px solid #AAA;
+
+  &.active {
+    color: $color-secondary;
+    background-color: $color-primary;
+  }
+
+  &.selected, &:hover {
+    border: 2px solid white;
+  }
+
+  & + .queue {
+    margin-top: 0;
+  }
+}
+
+.ticket {
+  padding: 0.5em;
+  border-bottom: 1px solid lightgray;
+}

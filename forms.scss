@@ -106,6 +106,12 @@ button:disabled {
     }
   }
 
+  .form-group.split.uneven {
+    & > * {
+      flex-basis: auto;
+    }
+  }
+
   .form-buttons {
     margin-top: 1.5em;
   }
