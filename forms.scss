@@ -49,12 +49,13 @@ button, .button {
   }
 
   &.secondary {
-    background-color: lightgray;
-    color: black;
+    background-color: #AAA;
+    color: white;
   }
 
   &:disabled {
-    background-color: #BBB;
+    background-color: #CCC;
+    cursor: default;
   }
 
   & + & {

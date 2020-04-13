@@ -20,6 +20,7 @@
   &.active {
     color: $color-secondary;
     background-color: $color-primary;
+    border-color: $color-primary;
   }
 
   &.selected, &:hover {
