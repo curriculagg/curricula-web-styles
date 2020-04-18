@@ -40,22 +40,26 @@ button {
 button, .button {
   text-align: center;
   cursor: pointer;
-  border: none;
+  border: 1px solid gray;
   padding: calc(0.4em + 1px) calc(0.5em + 1px);
 
   &.primary {
     background-color: $color-primary;
     color: $color-primary-text;
+    border-color: $color-primary;
   }
 
   &.secondary {
-    background-color: #AAA;
-    color: white;
+    background-color: white;
+    color: $color-primary;
+    border-color: $color-primary;
   }
 
   &:disabled {
     background-color: #CCC;
+    border-color: #CCC;
     cursor: default;
+    color: white;
   }
 
   & + & {
