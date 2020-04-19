@@ -41,7 +41,6 @@ button, .button {
   text-align: center;
   cursor: pointer;
   border: 1px solid gray;
-  padding: calc(0.4em + 1px) calc(0.5em + 1px);
 
   &.primary {
     background-color: $color-primary;
