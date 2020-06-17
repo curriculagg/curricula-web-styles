@@ -16,6 +16,7 @@ input, button, select, textarea, .button {
 
   &.ghost {
     border-color: transparent;
+    cursor: default;
   }
 }
 
