@@ -1,0 +1,50 @@
+@import 'theme.scss';
+
+body {
+  margin: 0;
+}
+
+#navigation {
+  width: 100%;
+  background-color: $color-primary;
+  display: block;
+  padding: 1em;
+
+  color: white;
+
+  * {
+    color: inherit;
+  }
+}
+
+#content {
+  max-width: 950px;
+  margin: 4em auto;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+
+  & > div {
+    flex-basis: 400px;
+    flex-grow: 1;
+  }
+
+  & > div.space {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 1em;
+    min-width: 1em;
+  }
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.subtitle {
+  margin-top: 0.25em;
+  font-size: 18px;
+  display: block;
+}
