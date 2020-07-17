@@ -1,0 +1,23 @@
+@import 'theme';
+
+table.assignments {
+  margin-top: 1em;
+  padding: 0;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: inherit;
+
+  th, td {
+    padding: 0.5em 0.5em;
+  }
+
+  th {
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+
+  tr:hover td {
+    background-color: mix($color-primary, white, 5%);
+    cursor: pointer;
+  }
+}
