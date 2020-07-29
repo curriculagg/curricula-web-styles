@@ -12,18 +12,18 @@ body {
   font-size: $font-size;
   font-family: $font-family;
   font-weight: $font-weight;
-  line-height: 140%;
+  line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: $font-weight;
   color: $color-primary;
   margin-bottom: 0.5em;
 }
 
-h2 {
-  margin-top: 1.5em;
+h4, h5, h6 {
+  color: black;
 }
 
 a {
