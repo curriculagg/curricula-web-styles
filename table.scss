@@ -22,7 +22,7 @@ table.standard {
   }
 
   &.hover {
-    tr:hover {
+    tr:not(.disabled):hover {
       td {
         background-color: mix($color-primary, white, 10%);
       }
@@ -30,18 +30,10 @@ table.standard {
   }
 
   &.click {
-    tr {
+    tr:not(.disabled) {
       cursor: pointer;
     }
   }
-}
-
-table.sections {
-  margin-bottom: 1.25em;
-
-  th:nth-child(1), td:nth-child(1) { width: 10%; }
-  th:nth-child(2), td:nth-child(2) { width: 35%; }
-  th:nth-child(3), td:nth-child(3) { width: 20%; }
 }
 
 table.minimal {
