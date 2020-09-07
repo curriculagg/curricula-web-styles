@@ -1,4 +1,4 @@
-@use 'theme';
+@import 'theme';
 
 table.standard {
   width: 100%;
@@ -24,7 +24,7 @@ table.standard {
   &.hover {
     tr:not(.disabled):hover {
       td {
-        background-color: mix(theme.$color-primary, white, 10%);
+        background-color: mix($color-primary, white, 10%);
       }
     }
   }
