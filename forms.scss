@@ -139,8 +139,8 @@ form, .form {
       flex-grow: 1;
     }
 
-    .right {
-
+    &.right {
+      justify-content: right;
     }
   }
 
