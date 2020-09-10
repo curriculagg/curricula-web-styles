@@ -1,4 +1,4 @@
-@import 'theme';
+@use 'theme';
 
 .paragraph {
   margin: 1em 0;
@@ -9,11 +9,11 @@
 }
 
 .color-primary {
-  color: $color-primary;
+  color: theme.$color-primary;
 }
 
 .background-color-primary-light {
-  background-color: mix($color-primary, white, 10%);
+  background-color: mix(theme.$color-primary, white, 10%);
 }
 
 .display-none {
