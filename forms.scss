@@ -86,6 +86,10 @@ form, .form {
   display: block;
   margin-top: 1em;
 
+  &.bump {
+    margin-top: 2em;
+  }
+
   h2 {
     margin-bottom: 0.75em;
   }
