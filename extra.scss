@@ -1,15 +1,19 @@
-@import 'theme';
+@use 'theme';
+
+.paragraph {
+  margin: 1em 0;
+}
 
 .font-bold {
   font-weight: normal;
 }
 
 .color-primary {
-  color: $color-primary;
+  color: theme.$color-primary;
 }
 
 .background-color-primary-light {
-  background-color: mix($color-primary, white, 10%);
+  background-color: mix(theme.$color-primary, white, 10%);
 }
 
 .display-none {
@@ -22,6 +26,10 @@
 
 .float-right {
   float: right;
+}
+
+.button-navigation {
+  margin-top: 2em;
 }
 
 .bump {
