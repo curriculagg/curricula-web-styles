@@ -10,12 +10,32 @@ strong {
 
 $color-primary: #990000;
 $color-secondary: #FFCC00;
+$color-navigation: $color-primary;
 $color-primary-text: white;
+$color: black;
+$color-background: white;
+$color-background-accent: #EFEFEF;
+$color-background-selected: #EEE;
+$color-background-code: rgba(27, 31, 35, 0.05);
+$icon-filter: none;
+
+//$color-primary: #FFCC00;
+//$color-secondary: white;
+//$color-navigation: #333;
+//$color-primary-text: white;
+//$color: lightgray;
+//$color-background: #111;
+//$color-background-accent: #151515;
+//$color-background-selected: #1B1B1B;
+//$color-background-code: #222;
+//$icon-filter: invert(1);
 
 body {
   font-size: $font-size;
   font-family: $font-family;
   font-weight: $font-weight;
+  color: $color;
+  background-color: $color-background;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
@@ -28,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h5, h6 {
-  color: black;
+  color: $color;
 }
 
 h3 {
