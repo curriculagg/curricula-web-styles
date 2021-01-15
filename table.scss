@@ -18,13 +18,13 @@ table.standard {
   }
 
   tr:nth-child(even) {
-    background-color: #EEE;
+    background-color: $color-background-accent;
   }
 
   &.hover {
     tr:not(.disabled):hover {
       td {
-        background-color: mix($color-primary, white, 10%);
+        background-color: $color-background-selected;
       }
     }
   }
@@ -76,11 +76,11 @@ div.links {
     list-style: none;
     padding: 0.5em 0.5em;
     margin-bottom: 0.25em;
-    background-color: #EEE;
+    background-color: $color-background-accent;
     border-radius: 2px;
 
     &:hover {
-      background-color: lightgray;
+      background-color: $color-background-selected;
     }
 
     img {
@@ -88,10 +88,12 @@ div.links {
       height: 15px;
       margin-bottom: -2px;
       margin-right: 0.5em;
+      color: white;
+      filter: $icon-filter;
     }
   }
 
   a {
-    color: black;
+    color: $color;
   }
 }
