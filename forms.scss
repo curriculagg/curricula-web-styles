@@ -132,6 +132,10 @@ form, .form {
     margin-top: 1em;
     display: flex;
 
+    &.button-navigation {
+      margin-top: 2em;
+    }
+
     * {
       flex-grow: 0;
     }
