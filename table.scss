@@ -8,7 +8,7 @@ table.standard {
 
   th {
     text-align: left;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color);
     font-weight: inherit;
   }
 
@@ -18,13 +18,13 @@ table.standard {
   }
 
   tr:nth-child(even) {
-    background-color: $color-background-accent;
+    background-color: var(--color-background-accent);
   }
 
   &.hover {
     tr:not(.disabled):hover {
       td {
-        background-color: $color-background-selected;
+        background-color: var(--color-background-selected);
       }
     }
   }
@@ -76,11 +76,11 @@ div.links {
     list-style: none;
     padding: 0.5em 0.5em;
     margin-bottom: 0.25em;
-    background-color: $color-background-accent;
+    background-color: var(--color-background-accent);
     border-radius: 2px;
 
     &:hover {
-      background-color: $color-background-selected;
+      background-color: var(--color-background-selected);
     }
 
     img {
@@ -89,11 +89,11 @@ div.links {
       margin-bottom: -2px;
       margin-right: 0.5em;
       color: white;
-      filter: $icon-filter;
+      filter: var(--icon-filter);
     }
   }
 
   a {
-    color: $color;
+    color: var(--color);
   }
 }

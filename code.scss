@@ -5,7 +5,7 @@ code {
   display: inline-block;
   padding: 0 3px;
   border-radius: 5px;
-  background-color: $color-background-code;
+  background-color: var(--color-background-code);
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   font-size: 80%;
   font-weight: inherit;
@@ -16,7 +16,7 @@ pre {
   display: block;
   width: 100%;
   overflow-x: auto;
-  background-color: $color-background-code;
+  background-color: var(--color-background-code);
   border-radius: 5px;
 
   code {

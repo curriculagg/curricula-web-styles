@@ -1,9 +1,11 @@
+@import "theme";
+
 .card {
   display: block;
   padding: 0.5em;
   border-radius: 0.25em;
   margin-bottom: 0.5em;
-  background-color: $color-background-accent;
+  background-color: var(--color-background-accent);
   cursor: pointer;
 
   &:hover {

@@ -9,11 +9,11 @@
 }
 
 .color-primary {
-  color: $color-primary;
+  color: var(--color-primary);
 }
 
 .background-color-primary-light {
-  background-color: mix($color-primary, white, 10%);
+  background-color: var(--color-background-primary-light);
 }
 
 .display-none {

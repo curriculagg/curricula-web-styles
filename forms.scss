@@ -11,7 +11,7 @@ input, button, select, textarea, .button {
   border: 1px solid lightgray;
 
   &.invalid {
-    border: 1px solid $color-primary;
+    border: 1px solid var(--color-primary);
   }
 
   &.ghost {
@@ -50,15 +50,15 @@ button, .button {
   border: 1px solid gray;
 
   &.primary {
-    background-color: $color-primary;
-    color: $color-primary-text;
-    border-color: $color-primary;
+    background-color: var(--color-primary);
+    color: var(--color-primary-text);
+    border-color: var(--color-primary);
   }
 
   &.secondary {
     background-color: white;
-    color: $color-primary;
-    border-color: $color-primary;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
   }
 
   &:disabled {
