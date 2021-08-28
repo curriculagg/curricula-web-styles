@@ -29,6 +29,8 @@ select {
   background-position: right 0.65em top 50%;
   background-repeat: no-repeat;
   background-size: 0.65em auto;
+
+  padding-right: 2em;
 }
 
 label {
@@ -73,6 +75,10 @@ button, .button {
   }
 }
 
+.button-margin-left {
+  margin-left: 0.75em;
+}
+
 button:disabled {
   background-color: lightgray;
   color: white;
@@ -99,7 +105,7 @@ form, .form {
     margin-bottom: 1em;
     display: block;
 
-    input, textarea, select {
+    input, textarea, select:not(.inline) {
       width: 100%;
     }
   }
